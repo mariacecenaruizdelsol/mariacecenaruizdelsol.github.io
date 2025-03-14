@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    
+    <style type="text/css">
+        footer {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 20px; 
+            padding: 10px; 
+            background-color: #FF758F;
+        }
+
+        footer a {
+            display: inline-block; 
+        }
+
+        footer img {
+            max-height: 40px; 
+            width: auto; 
+        }
+
+        footer {
+            width: 100%;
+            height: 120px;
+        }
+
+        header {
+            background-color: #590D22;   
+        }
+
+        nav {
+            background-color: #FF758F;
+        }
+
+        main {
+            background-color: #C9184A;
+        }
+
+        section {
+            background-color: #800F2F;
+        }
+
+        nav ul li {
+            background-color: #FFB3C1;
+        }
+
+        nav ul li a:link, nav ul li a:visited {
+            text-decoration: none;
+            color: #800F2F;
+        }
+
+        #Tabla_hover tbody tr:hover {
+            background-color: #FFB3C1;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #FF758F;
+        }
+
+        /* Estilo para las tablas tipo cebra */
+        #Tabla_cebras tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #Tabla_cebras tbody tr:nth-child(odd) {
+            background-color: #fff;
+        
+        }
+        
+     
+    #Tabla_cebras tbody tr:nth-child(even) {
+        background-color: #f0f0f0; 
+        color: #333333; 
+    }
+
+    #Tabla_cebras tbody tr:nth-child(odd) {
+        background-color: #d0d0d0;
+        color: #222222; 
+    }
+</style>
+
+        
+    
+</head>
+
+<body>
+
+<header>
+    <h1> TABLAS EN HTML </h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="../index.html">Index</a></li>
+        <li><a href="../html/formatos.html">Formatos</a></li>
+        <li><a href="../html/listas.html">Listas</a></li>
+        <li><a href="#">Enlaces</a></li>
+        <li><a href="../html/tablas.html">Tablas</a></li>
+        <li><a href="../html/imagenes.html">Imagenes</a></li>
+        <li><a href="../html/audio.html">Audio</a></li>
+        <li><a href="../html/video.html">Video</a></li>
+        <li><a href="../html/formularios.html">Formularios</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Tabla simple</h2>
+        
+        <p> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed odio nisi. Nulla facilisi. Fusce velit nulla, condimentum tempus augue vitae, pulvinar elementum leo. Duis viverra neque et orci auctor tincidunt. Praesent pulvinar vitae nulla ac vehicula. Phasellus vel neque justo. Fusce et dolor rutrum, volutpat eros at, dictum tellus. Quisque scelerisque dapibus metus eget eleifend. Quisque sit amet faucibus eros, pulvinar fermentum lacus.
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Valeria</td>
+                    <td>Hernandez</td>
+                    <td>Rojas</td>
+                    <td>Calle Rosas #45 Col. La Margarita</td>
+                    <td>2222695642</td>
+                    <td>vale_hdz@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>Lara</td>
+                    <td>Sánchez</td>
+                    <td>Calle Miguel Hidalgo #104 Col. Lomas 5 de Mayo</td>
+                    <td>2224863656</td>
+                    <td>Carlos_Lara@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emoé</td>
+                    <td>Nieto</td>
+                    <td>Ruiz</td>
+                    <td>Calle Eucalipto #76 Col. Bosques de San Sebastián</td>
+                    <td>2223678915</td>
+                    <td>Emoé_Nieto@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Paola</td>
+                    <td>Rojas</td>
+                    <td>Hernandez</td>
+                    <td>Calle Miguel Negrete #201 Col. La Paz</td>
+                    <td>2222649048</td>
+                    <td>Paola_Rojas@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Leonardo</td>
+                    <td>Mena</td>
+                    <td>Osorio</td>
+                    <td>Calle Durazno #72 Col. Infonavit La Rosa</td>
+                    <td>2223854501</td>
+                    <td>Leonardo_Mena@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>América</td>
+                    <td>Capilla</td>
+                    <td>Castro</td>
+                    <td>Calle Abedul #145 Col. Las Ánimas</td>
+                    <td>2223156783</td>
+                    <td>América_Castro@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Tabla con estilo "Cebra"</h2>
+        <table id="Tabla_cebras">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Valeria</td>
+                    <td>Hernandez</td>
+                    <td>Rojas</td>
+                    <td>Calle Rosas #45 Col. La Margarita</td>
+                    <td>2222695642</td>
+                    <td>vale_hdz@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>Lara</td>
+                    <td>Sánchez</td>
+                    <td>Calle Miguel Hidalgo #104 Col. Lomas 5 de Mayo</td>
+                    <td>2224863656</td>
+                    <td>Carlos_Lara@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emoé</td>
+                    <td>Nieto</td>
+                    <td>Ruiz</td>
+                    <td>Calle Eucalipto #76 Col. Bosques de San Sebastián</td>
+                    <td>2223678915</td>
+                    <td>Emoé_Nieto@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Paola</td>
+                    <td>Rojas</td>
+                    <td>Hernandez</td>
+                    <td>Calle Miguel Negrete #201 Col. La Paz</td>
+                    <td>2222649048</td>
+                    <td>Paola_Rojas@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Leonardo</td>
+                    <td>Mena</td>
+                    <td>Osorio</td>
+                    <td>Calle Durazno #72 Col. Infonavit La Rosa</td>
+                    <td>2223854501</td>
+                    <td>Leonardo_Mena@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>América</td>
+                    <td>Capilla</td>
+                    <td>Castro</td>
+                    <td>Calle Abedul #145 Col. Las Ánimas</td>
+                    <td>2223156783</td>
+                    <td>América_Castro@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Tabla con Hover</h2>
+        <table id="Tabla_hover">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Valeria</td>
+                    <td>Hernandez</td>
+                    <td>Rojas</td>
+                    <td>Calle Rosas #45 Col. La Margarita</td>
+                    <td>2222695642</td>
+                    <td>vale_hdz@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>Lara</td>
+                    <td>Sánchez</td>
+                    <td>Calle Miguel Hidalgo #104 Col. Lomas 5 de Mayo</td>
+                    <td>2224863656</td>
+                    <td>Carlos_Lara@gmail.com</td>
+                </tr>
+                <tr>
+                                    <td>Emoé</td>
+                                    <td>Nieto</td>
+                                    <td>Ruiz</td>
+                                    <td>Calle Eucalipto #76 Col. Bosques de San Sebastián</td>
+                                    <td>2223678915</td>
+                                    <td>Emoé_Nieto@gmail.com</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Paola</td>
+                                    <td>Rojas</td>
+                                    <td>Hernandez</td>
+                                    <td>Calle Miguel Negrete #201 Col. La Paz</td>
+                                    <td>2222649048</td>
+                                    <td>Paola_Rojas@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Leonardo</td>
+                                    <td>Mena</td>
+                                    <td>Osorio</td>
+                                    <td>Calle Durazno #72 Col. Infonavit La Rosa</td>
+                                    <td>2223854501</td>
+                                    <td>Leonardo_Mena@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>América</td>
+                                    <td>Capilla</td>
+                                    <td>Castro</td>
+                                    <td>Calle Abedul #145 Col. Las Ánimas</td>
+                                    <td>2223156783</td>
+                                    <td>América_Castro@gmail.com</td>
+                                    </tr>
+                                
+                              </tbody>
+            
+        </table>
+    </section>
+</main>
+
+<footer>
+     <a href="https://www.instagram.com/bellagangster/" target="_blank">
+            <img src="../imagenes/instagram.png">
+        </a>
+        <a href="https://www.facebook.com/Bela.ruizdelsol" target="_blank">
+            <img src="../imagenes/facebook.png">
+        </a>
+        <a href="https://www.tiktok.com/@isabeladelsol" target="_blank">
+            <img src="../imagenes/tiktok.png">
+        </a>
+</footer>
+
+</body>
+</html>
