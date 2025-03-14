@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+
+ padding: 0;
+ margin: 0;
+box-sizing:border-box;
+}
+ 
+ 
+header,nav,main,footer{
+  background-color:#0B132B;
+  color: whitesmoke;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  font-family: "Gudea", sans-serif;
+   }
+
+  header{
+     height: auto;
+     font-family: "gudea-regular-italic";
+     color: ghostwhite;
+     letter-spacing: normal; 
+     }
+
+  nav{
+  background-color:#5BC0BE;
+  text-align: center;
+    }
+  
+  
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #1C2541;
+    width: 10%;
+    min-width: 100px;
+    
+    text-align: center;
+    border-radius: 30px;
+    min-width: 100px;
+    margin-bottom: 5px;
+    margin-top:5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    }
+    
+    nav ul li a:link, nav ul li a:visited {
+    text-decoration: none;
+    color: #e9ecef;
+    }
+    
+    
+    
+    
+    nav ul li:hover {
+    background-color: goldenrod;
+    }
+    
+   section{
+    background-color: #3A506B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    overflow-x: auto;
+    }
+
+    h2{
+    margin-bottom: 30px;
+    font-family: "gudea-regular-italic";
+    letter-spacing: normal; 
+    }
+
+    h1{ 
+       text-align: center;
+       font-size:48px;
+    }
+
+    footer { 
+    text-align:center;
+    height: 48px;
+    background-color: #BE95C4;
+    font-size: 18px;
+    }
+
+    table{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+    } 
+
+    #tabla-1{
+    background-color: aquamarine;
+    border:3px solid red;
+    border-spacing: 10px;
+        
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    
+    
+}
+#tabla-1 th{
+    font-size:20px;
+    background-color: burlywood;
+    color:azure;
+   
+}
+#tabla-1 th, #tabla-1 td{
+    border: 3px solid #E0B1CB;
+    padding:10px;
+}
+
+#tabla-cebras{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  
+  
+} 
+:
+#tabla-cebras th{
+    background-color: cadetblue;
+}
+
+#tabla-cebras tbody tr:nth-child(even){
+    background-color: lightcoral;
+}
+
+#tabla-cebras tbody tr:nth-child(odd){
+    background-color: aliceblue;
+    
+}
+
+#tabla_hover{
+    width:70%;
+  
+}
+#tabla-hover th{
+    background-color: cornflowerblue;
+    color:darkgray;
+}
+#tabla_hover td, #tabla_hover th{
+    border-width: 3px;
+    border-color: mediumpurple;
+    border-style: solid;
+    padding: 10px;
+}
+
+
+#tabla_hover tr:hover{
+    background-color:cyan;
+    color:firebrick
+}
+
+
+img{
+    width:100%;
+    margin-top: 30px;
+}
+
+main section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    }
+
+#img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+p{
+    margin-top: 20px;
+     }
+
+.img_flotante{
+    width: 30%;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+    }
+.alineacion{
+    width: 30%;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+
+     }
+.alineacion{
+    width: 30%;
+    float:right;
+    margin: 0;
+      }
+
+
+#fondo_box {
+    background-image: url("../imagenes/nocheestrellada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: darkviolet;
+    padding: 20px;
+}
+
+#enlace-img {
+    width: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top:20px;
+    display: block;
+   
+    
+}   
+    
+.img_filter {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;        /* Permite que las imágenes se acomoden en filas */
+    justify-content: center; /* Centra las imágenes en la sección */
+    gap: 20px;              /* Espacio entre las imágenes */
+}
+
+.img_filter img {
+    width: 30%;             /* Ajusta el tamaño de las imágenes */
+    max-width: 300px;       /* Limita el tamaño máximo de las imágenes */
+    margin: 10px;           /* Agrega un margen alrededor de las imágenes */
+    border-radius: 10px;    /* Opcional: da bordes redondeados a las imágenes */
+    transition: filter 0.3s ease; /* Transición suave para los filtros */
+}
+
+.img-border-redondo {
+    border-radius: 50%;
+}
+
+.section-filtros img {
+    width: 30%;             
+    display: inline-block;
+    margin: 10px;
+}
+
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: darkolivegreen;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+label{
+    color: bisque;
+    font-weight: bold;
+    font-size: 18px;
+}
+input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding; 20px;
+    background-color:darkseagreen;
+    color: bisque;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+textarea{
+    padding:20px;
+}
+
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: bisque;
+    font-weight: bold;
+    color:darkseagreen;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block; 
+    
+}
+input [type=text]:focus, input[type=pasword]:focus, input[type-email]:focus, textarea:focus, select: focus {
+    background-color: bisque;
+    color: grey;
+}
+input[type=radio], input[type=checkbox]{
+    width: 10%;
+    
+}
+    
+
+
+
+
+
+
+
+
